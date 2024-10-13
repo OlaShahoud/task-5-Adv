@@ -1,0 +1,48 @@
+.inputDiv input {
+    width: 200px!important;
+}
+
+.form-style1 input {
+    width: 424px;
+    height: 44px;
+}
+
+.paragraf-SignUp {
+    margin-top: 8px;
+}
+
+.Title-SignUp {
+    margin-top: 42px;
+}
+
+.nameinput {
+    margin-right: 24px;
+}
+
+.profile {
+    margin-bottom: 17px;
+}
+
+.formAll-Sign {
+    width: 500px;
+    background-color: #fff;
+    height: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+}
+
+.btn-Sign {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px dashed #384EB74D
+}
+
+.btn-Sign img {
+    width: 40px;
+    height: 36px;
+}

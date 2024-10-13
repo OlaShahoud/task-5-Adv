@@ -1,0 +1,94 @@
+.Add {
+    margin-left: 64px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.AddTitle {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.AddForm {
+    display: flex;
+}
+
+.formAdd,
+.imageAdd {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputAdd1 {
+    margin-bottom: 64px;
+}
+
+.imageAdd {
+    margin-left: 34px;
+}
+
+.lableAdd {
+    font-size: 32px;
+    font-weight: 500;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+
+.inputAdd {
+    width: 415.87px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    color: #CDCDCD;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 15px;
+    opacity: .6;
+}
+
+.BtnAdd {
+    font-size: 32px;
+    font-weight: 500;
+    width: 199px;
+    height: 61px;
+    border-radius: 4px;
+    background-color: #FEAF00;
+    border: none;
+    color: #fff;
+}
+
+.btnAdd {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.inputImage {
+    display: none;
+}
+
+.btn-download {
+    width: 547px;
+    height: 209px;
+    border-radius: 4px;
+    border: 1px dashed #384EB74D;
+    background-color: #F8F8FF;
+    cursor: pointer;
+}
+
+@media(max-width:992px) {
+    .btn-download {
+        width: 147px;
+    }
+    .inputAdd {
+        width: 215.87px;
+    }
+}
+
+@media(max-width:576px) {
+    .inputAdd {
+        width: 150.87px;
+    }
+}

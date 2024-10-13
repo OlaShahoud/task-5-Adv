@@ -1,0 +1,102 @@
+.sideBar {
+    width: 270px;
+    height: 100vh;
+    background-color: #F2EAE1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 27px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.Logo-Dash {
+    width: 97.23px;
+    height: 23px;
+    margin: 32px 0px 54px 0px;
+    border-left: 4px solid #F8D442;
+    padding-left: 12px;
+}
+
+.Logo-Dash img {
+    width: 100%;
+    height: 100%;
+}
+
+.h-Dash {
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.Btn-Dash {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-Dash {
+    width: 193px;
+    height: 41px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-Dash:active {
+    background-color: #FEAF00;
+}
+
+.icon-img {
+    margin-right: 8px;
+}
+
+.logOut {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 33px;
+}
+
+.btn-logOut {
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.btn-logOut img {
+    padding-left: 23px;
+}
+
+@media(max-width:768px) {
+    .sideBar {
+        width: 200px;
+    }
+}
+
+@media(max-width:576px) {
+    .sideBar {
+        width: 150px;
+    }
+}

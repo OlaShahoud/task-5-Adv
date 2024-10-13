@@ -1,0 +1,86 @@
+.SignIn {
+    height: 100vh;
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+}
+
+.Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.formAll {
+    width: 476px;
+    background-color: #fff;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+}
+
+.logo-img {
+    width: 151.32px;
+    height: 41px;
+}
+
+.Title-Sign {
+    margin-top: 43px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.paragraf-Sign {
+    margin-bottom: 40px;
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.form-style {
+    font-size: 20px;
+    margin: 20px 30px 0px 30px;
+}
+
+.form-style input {
+    Width: 415.87px;
+    Height: 44px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #CDCDCD;
+}
+
+.btn-Sign {
+    padding: 10px;
+}
+
+.btn-SignIn {
+    width: 415.87px;
+    height: 44px;
+    border-radius: 4px;
+    margin: 30px 0px 27px 0px;
+    background-color: #FEAF00;
+    border: none;
+    font-size: 14px;
+    font-weight: 14px;
+    color: #fff;
+}
+
+.pAccount {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Create {
+    font-weight: 500;
+    color: #FEAF00!important;
+}

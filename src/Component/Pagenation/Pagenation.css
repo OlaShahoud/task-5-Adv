@@ -1,0 +1,20 @@
+.active {
+    background-color: #FEAF00!important;
+    color: #fff;
+}
+
+.prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #F1F1F1;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.prev:active {
+    background-color: #FEAF00!important;
+    color: #fff;
+}
